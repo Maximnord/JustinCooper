@@ -1,0 +1,443 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jacques+Francois+Shadow&family=Tangerine:wght@400;700&display=swap");
+.icon .icon-logo {
+  width: 140px;
+}
+
+.navbar {
+  position: relative;
+}
+
+.nav-item .nav-link {
+  margin-left: 5em;
+  font-size: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.nav-item .nav-link:hover {
+  -webkit-transform: translateX(-10px) scale(1.1);
+          transform: translateX(-10px) scale(1.1);
+  font-weight: 700;
+}
+
+.icon-logo {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.icon-logo:hover {
+  -webkit-box-shadow: 0px 0 25px 0 rgba(239, 243, 4, 0.424);
+          box-shadow: 0px 0 25px 0 rgba(239, 243, 4, 0.424);
+  -webkit-transform: translateX(10px) scale(1.1);
+          transform: translateX(10px) scale(1.1);
+}
+
+.header {
+  position: relative;
+  padding: 10vh 0 10vh;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1200px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10vh auto 10vh;
+  -webkit-box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+}
+
+.header .slogan {
+  text-align: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .slogan:hover {
+  -webkit-transform: translateX(-10px) scale(1.1);
+          transform: translateX(-10px) scale(1.1);
+  font-weight: 900;
+}
+
+.header .slogan q:lang(en) {
+  quotes: "\201C" "\201D";
+  /* Вид кавычек для английского языка */
+  font-family: 'Crimson Text', serif;
+  padding: 15px;
+}
+
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo h1 {
+  font-size: 12em;
+  font-family: 'Tangerine', cursive;
+  font-weight: 800;
+  text-shadow: 2px 5px 5px #5f2929, 0 0 1px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .logo h1:hover {
+  -webkit-transform: translateX(-10px) scale(1.1);
+          transform: translateX(-10px) scale(1.1);
+  font-weight: 900;
+}
+
+.header .landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 25vh;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .landing h1 {
+  font-size: 6em;
+  position: absolute;
+  letter-spacing: 1px;
+  font-family: 'Jacques Francois Shadow', cursive;
+  color: rgba(248, 4, 4, 0.74);
+  font-weight: 100;
+}
+
+.header .landing h2 {
+  font-size: 5em;
+  position: absolute;
+  font-family: 'Tangerine', cursive;
+  letter-spacing: 1px;
+  font-weight: 900;
+  margin-top: 20px;
+  color: #012701;
+  text-shadow: 2px 3px 3px #01154e, 0 0 1px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .landing h2:hover {
+  -webkit-transform: translateX(-10px) scale(1.1);
+          transform: translateX(-10px) scale(1.1);
+  font-weight: 900;
+}
+
+.about {
+  font-family: 'Crimson Text', serif;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 70vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10vh auto 10vh;
+  padding: 1vh 10vh 10vh;
+  max-width: 1200px;
+  -webkit-box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+}
+
+.about .ab_me h2 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-top: 10vh;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.about .ab_me h2:hover {
+  -webkit-transform: translateX(-10px) scale(1.1);
+          transform: translateX(-10px) scale(1.1);
+  font-weight: 900;
+}
+
+.about .ab_text h4 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.about .ab_text h4:hover {
+  -webkit-transform: translateX(-10px) scale(1.1);
+          transform: translateX(-10px) scale(1.1);
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10vh;
+}
+
+.services .container {
+  -webkit-box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+}
+
+.services h2 {
+  font-size: 45px;
+  font-weight: 900;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.services h2:hover {
+  -webkit-transform: translateX(10px) scale(1.1);
+          transform: translateX(10px) scale(1.1);
+  font-weight: 900;
+}
+
+.services h4 {
+  font-family: 'Crimson Text', serif;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.services h4:hover {
+  -webkit-transform: translateX(10px) scale(1.1);
+          transform: translateX(10px) scale(1.1);
+}
+
+.services .section-title {
+  margin: 10vh auto 10vh;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Crimson Text', serif;
+  color: #000;
+}
+
+.services .col {
+  margin: auto;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  max-width: 400px;
+}
+
+.services .col:hover {
+  border-color: #fff;
+  -webkit-box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.services .col img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  margin: auto;
+  padding-top: 6px;
+}
+
+.services .col p {
+  position: relative;
+}
+
+.services .col p h4 {
+  text-align: center;
+}
+
+.clients {
+  margin: 10vh auto 10vh;
+  max-width: 50%;
+  -webkit-box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+}
+
+.clients ul li {
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  font-family: 'Crimson Text', serif;
+}
+
+.clients ul li:hover {
+  -webkit-box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+footer {
+  position: relative;
+  font-family: 'Crimson Text', serif;
+  padding-bottom: 3vh;
+  padding-top: 10vh;
+  background: rgba(6, 3, 15, 0.438);
+}
+
+.footer {
+  width: 100%;
+  background: rgba(20, 20, 20, 0.9);
+  opacity: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1220px;
+  padding-top: 10vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0vh auto 0vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #fff;
+  padding: 10vh;
+  -webkit-box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  width: 20em;
+}
+
+.c_icons {
+  margin: 3vh auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c_icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c_icons li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.c_icons li a {
+  color: #f57c4d;
+}
+
+.c_icons li:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: rotateY(0deg) scale(1.8);
+          transform: rotateY(0deg) scale(1.8);
+}
+
+.c_icons li:hover a {
+  color: #fff;
+}
+
+.coperate {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: black;
+  max-width: 1220px;
+  padding: 10px;
+  -webkit-box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0px 16px 13px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.coperate:hover {
+  -webkit-transform: translateX(10px) scale(1.1);
+          transform: translateX(10px) scale(1.1);
+  background: #02023d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+.goup {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  border: none;
+  background: none;
+  text-shadow: 0 0 2 #000;
+  display: none;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.goup:hover {
+  -webkit-transform: translateX(-10px) scale(1.1);
+          transform: translateX(-10px) scale(1.1);
+}
+
+.jopa {
+  display: block;
+}

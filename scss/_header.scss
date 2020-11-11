@@ -1,0 +1,83 @@
+.header{
+    position: relative;
+    padding: 10vh 0 10vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    align-content: center;
+    align-items: center;
+    margin: 10vh auto 10vh;
+    box-shadow: 2px 0px 16px 13px rgba(0,0,0,0.2);
+    
+.slogan{
+    text-align: center;
+    transition: 0.4s;
+        &:hover{
+        transform: translateX(-10px) scale(1.1);
+        font-weight: 900;
+    }
+    q:lang(en) {
+    quotes: "\201C" "\201D"; /* Вид кавычек для английского языка */ 
+    font-family: 'Crimson Text', serif;
+     padding: 15px;
+     
+   }
+}
+.logo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    
+    h1{
+        font-size: 12em;
+        font-family: 'Tangerine', cursive;
+        font-weight: 800;
+        text-shadow: 2px 5px 5px rgb(95, 41, 41), 0 0 1px;
+        transition: 0.4s;
+        &:hover{
+        transform: translateX(-10px) scale(1.1);
+        font-weight: 900;
+    }
+    }
+}
+
+.landing{
+    display: flex;
+    position: relative;
+    height: 25vh;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    h1{
+        font-size: 6em;
+        position: absolute;
+        letter-spacing: 1px;
+        font-family: 'Jacques Francois Shadow', cursive;
+        color: rgba(248, 4, 4, 0.74);
+        font-weight: 100;
+         
+    }
+    h2{
+        font-size: 5em;
+        position: absolute;
+        font-family: 'Tangerine', cursive;
+        letter-spacing: 1px;
+        font-weight: 900;
+        margin-top: 20px;
+        color: rgb(1, 39, 1);
+        text-shadow: 2px 3px 3px rgb(1, 21, 78), 0 0 1px;
+         transition: 0.4s;
+        &:hover{
+        transform: translateX(-10px) scale(1.1);
+        font-weight: 900;
+    }
+    }
+}
+}
+

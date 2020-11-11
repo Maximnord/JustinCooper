@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jacques+Francois+Shadow&family=Tangerine:wght@400;700&display=swap');
+@import "navbar";
+@import "header";
+@import "aboutme";
+@import "services";
+@import "clients";
+@import "footer";
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    
+}
+
+.goup{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    border: none;
+    background: none;
+    text-shadow: 0 0 2 #000;
+    display: none;
+    transition: 0.6s;
+    &:hover{
+        
+        // box-shadow: 0px 0 25px 0 rgba(248, 249, 250, 0.876);
+        transform: translateX(-10px) scale(1.1);
+        
+        
+    }
+}
+.jopa{
+    display: block;
+    
+}

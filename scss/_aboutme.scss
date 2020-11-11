@@ -1,0 +1,33 @@
+.about{
+    font-family: 'Crimson Text', serif;
+    color: #000;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+    margin: 10vh auto 10vh;
+    padding: 1vh 10vh 10vh;
+    max-width: 1200px;
+    box-shadow: 2px 0px 16px 13px rgba(0,0,0,0.2);
+   
+
+    .ab_me h2{
+        font-size: 45px;
+        font-weight: 900;
+        margin-top: 10vh;
+        transition: 0.4s;
+        &:hover{
+        transform: translateX(-10px) scale(1.1);
+        font-weight: 900;
+    }
+    }
+    .ab_text h4{
+        transition: 0.4s;
+        &:hover{
+        transform: translateX(-10px) scale(1.1);
+        
+    }
+    }
+}
